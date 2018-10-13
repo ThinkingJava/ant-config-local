@@ -16,8 +16,8 @@ zuul:
       clients: auth,upms-service,demo-service
   ignoredServices: '*'
   host:
-    connect-timeout-millis: 10000
-    socket-timeout-millis: 10000
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
   ratelimit:
     key-prefix: pig-ratelimite
     enabled: true
